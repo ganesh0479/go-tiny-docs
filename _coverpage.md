@@ -5,7 +5,7 @@
 # <span style="color:#d9d9d9">**APPLICATION DESIGN**</span>
 
 [GitHub](https://github.com/docsifyjs/docsify/)
-[Get Started](#docsify)
+[Get Started](/design/backend/design?id=welcome-to-go-tiny-application-design)
 
 
 <!-- background color -->
