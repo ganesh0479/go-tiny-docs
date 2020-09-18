@@ -14,8 +14,8 @@
 * Explicitly separate User-Side, Business Logic, and Server-Side
 * Dependencies are going from User-Side and Server-Side to the Business Logic
 * Isolate the boundaries by using Ports and Adapters
-![](/_media/hexagonal.png)
 
+![](_media/hexagonal.png)
 ## INFRASTUCTURE
 > #### AZURE
 
@@ -39,10 +39,10 @@ Google SMTP Mail  | font-awesome |  | Kubernetes
 OpenAPI|
 
 ## APPLICATION FLOW
-> REGISTRATION / SIGN IN
+> REGISTRATION / SIGN IN 
 * Application starts with registration page having options to register or Sign in the user
 * After authentication success then the page navigates to Home, where all the available cards which are not assigned to any group will be displayed in the **CARDS** section
-
+  
 > CARDS SECTION
 * In this section user can **create cards** with title, name of the card (Unique), actual url and expiration time in minutes
 * Once the card get created user can click on the card to navigate to the actual url
@@ -168,3 +168,54 @@ OpenAPI|
    * I have integrated it with my **Go Tiny** backend application with the help of spring boot and configured the credentials in **AZURE**
    * Springboot is providing a way to send mail with any SMTP Server.
 
+> # Sign Up 
+![](_media/sign-up.png)
+
+> # Login
+![](_media/login.png)
+
+> # Displaying cards
+![](_media/after-card-update.png)
+
+> # Adding cards
+![](_media/add-card.png)
+
+> # Update Cards
+![](_media/update-card.png)
+
+> # Deleting the card
+![](_media/delete-card.png)
+![](_media/delete-card-pop.png)
+
+> # Sharing Card
+![](_media/share-card.png)
+
+> # Adding Group
+![](_media/group.png)
+
+> # Displaying groups
+![](_media/groups-fetch.png)
+
+> # Adding card to group
+![](_media/add-card-group.png)
+
+> # Added card to group
+![](_media/added-card-to-group.png)
+
+> # Assign/update user to group
+![](_media/assign-user-to-group.PNG)
+
+> # Share Group Cards
+![](_media/share-group-cards.PNG)
+
+> # Approve pending Cards
+![](_media/pending-card.png)
+
+> # Authorize Pending Cards
+![](_media/authorize-card.PNG)
+
+> # Thankyou !!!
+
+> [FRONTEND REPOSITOIRY](https://github.com/ganesh0479/go-tiny-app)
+
+> [BACKEND REPOSITORY](https://github.com/ganesh0479/go-tiny)
